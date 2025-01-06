@@ -16,7 +16,7 @@ declare module "next-auth" {
 
 async function refreshAccessToken(token: any) {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_DEV_URL}/auth/refresh/`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_DEV_URL}/auth/token/refresh/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
