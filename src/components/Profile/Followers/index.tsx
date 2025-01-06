@@ -114,62 +114,62 @@ function createData(
 }
 
 const rows = [
-  createData(1, "/images/users/user6.jpg", "Alex Davis", "alex@trezo.com", "#"),
+  createData(1, "/images/users/user6.jpg", "Alex Davis", "alex@fidelis.com", "#"),
   createData(
     2,
     "/images/users/user7.jpg",
     "Laura Martinez",
-    "laura@trezo.com",
+    "laura@fidelis.com",
     "#"
   ),
   createData(
     3,
     "/images/users/user8.jpg",
     "Mark Thompson",
-    "mark@trezo.com",
+    "mark@fidelis.com",
     "#"
   ),
   createData(
     4,
     "/images/users/user9.jpg",
     "Rachel White",
-    "rachel@trezo.com",
+    "rachel@fidelis.com",
     "#"
   ),
   createData(
     5,
     "/images/users/user10.jpg",
     "Kevin Lee",
-    "kevin@trezo.com",
+    "kevin@fidelis.com",
     "#"
   ),
   createData(
     6,
     "/images/users/user11.jpg",
     "Oliver Johnson",
-    "oliver@trezo.com",
+    "oliver@fidelis.com",
     "#"
   ),
-  createData(7, "/images/users/user12.jpg", "Jake Noah", "jake@trezo.com", "#"),
+  createData(7, "/images/users/user12.jpg", "Jake Noah", "jake@fidelis.com", "#"),
   createData(
     8,
     "/images/users/user13.jpg",
     "Callum Mason",
-    "callum@trezo.com",
+    "callum@fidelis.com",
     "#"
   ),
   createData(
     9,
     "/images/users/user14.jpg",
     "Robert Kyle",
-    "robert@trezo.com",
+    "robert@fidelis.com",
     "#"
   ),
   createData(
     10,
     "/images/users/user15.jpg",
     "Thomas Joe",
-    "thomas@trezo.com",
+    "thomas@fidelis.com",
     "#"
   ),
 ].sort((b, a) => (a.id < b.id ? -1 : 1));

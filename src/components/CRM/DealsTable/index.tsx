@@ -183,7 +183,7 @@ const rows = [
     "#854",
     "Tech Solutions",
     "Shawn Kennedy",
-    "oliver@trezo.com",
+    "oliver@fidelis.com",
     "$25,000.00",
     80,
     "15 Nov 2024",
@@ -271,7 +271,7 @@ const rows = [
   ),
   createData(
     "#845",
-    "Trezo Admin",
+    "Fidelis Admin",
     "David Warner",
     "$12,421.00",
     "Discovery",
@@ -281,7 +281,7 @@ const rows = [
   ),
   createData(
     "#845",
-    "Trezo Admin",
+    "Fidelis Admin",
     "David Warner",
     "$12,421.00",
     "Discovery",
@@ -303,7 +303,7 @@ const rows = [
     "#843",
     "Tech Solutions",
     "Shawn Kennedy",
-    "oliver@trezo.com",
+    "oliver@fidelis.com",
     "$25,000.00",
     80,
     "15 Nov 2024",
@@ -391,7 +391,7 @@ const rows = [
   ),
   createData(
     "#834",
-    "Trezo Admin",
+    "Fidelis Admin",
     "David Warner",
     "$12,421.00",
     "Discovery",
@@ -401,7 +401,7 @@ const rows = [
   ),
   createData(
     "#833",
-    "Trezo Admin",
+    "Fidelis Admin",
     "David Warner",
     "$12,421.00",
     "Discovery",

@@ -129,7 +129,7 @@ const rows = [
     2,
     "/images/users/user7.jpg",
     "Laura Martinez",
-    "laura@trezo.com",
+    "laura@fidelis.com",
     125,
     70,
     "success"
@@ -138,7 +138,7 @@ const rows = [
     3,
     "/images/users/user8.jpg",
     "Mark Thompson",
-    "mark@trezo.com",
+    "mark@fidelis.com",
     78,
     30,
     "secondary"
@@ -147,7 +147,7 @@ const rows = [
     4,
     "/images/users/user9.jpg",
     "Rachel White",
-    "rachel@trezo.com",
+    "rachel@fidelis.com",
     95,
     90,
     "success"
@@ -156,7 +156,7 @@ const rows = [
     5,
     "/images/users/user10.jpg",
     "Kevin Lee",
-    "kevin@trezo.com",
+    "kevin@fidelis.com",
     134,
     50,
     "warning"
@@ -174,7 +174,7 @@ const rows = [
     7,
     "/images/users/user17.jpg",
     "Laura Martinez",
-    "laura@trezo.com",
+    "laura@fidelis.com",
     125,
     70,
     "success"
@@ -183,7 +183,7 @@ const rows = [
     8,
     "/images/users/user18.jpg",
     "Mark Thompson",
-    "mark@trezo.com",
+    "mark@fidelis.com",
     78,
     30,
     "secondary"

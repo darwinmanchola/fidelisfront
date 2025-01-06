@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         }}
       >
         <Typography>
-          © <span className="text-purple">Trezo</span> is Proudly Owned by{" "}
+          © <span className="text-purple">Fidelis</span> is Proudly Owned by{" "}
           <a
             href="https://envytheme.com/"
             target="_blank"

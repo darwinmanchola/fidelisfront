@@ -30,7 +30,7 @@ const agents: Agent[] = [
   {
     id: 1,
     name: "Sarah Johnson",
-    email: "sarah@trezo.com",
+    email: "sarah@fidelis.com",
     phone: "(123) 456-7890",
     location: "74 Grim Avenue San Diego",
     image: "/images/users/user1.jpg",
@@ -60,7 +60,7 @@ const agents: Agent[] = [
   {
     id: 2,
     name: "Pauline Knott",
-    email: "pauline@trezo.com",
+    email: "pauline@fidelis.com",
     phone: "(987) 654-3210",
     location: "9 Paul Wayne Haggerty Road",
     image: "/images/users/user2.jpg",
@@ -90,7 +90,7 @@ const agents: Agent[] = [
   {
     id: 3,
     name: "James Combs",
-    email: "james@trezo.com",
+    email: "james@fidelis.com",
     phone: "(555) 258-1598",
     location: "61 Ottis Street Oklahoma City",
     image: "/images/users/user3.jpg",
@@ -120,7 +120,7 @@ const agents: Agent[] = [
   {
     id: 4,
     name: "Margaret Wade",
-    email: "margaret@trezo.com",
+    email: "margaret@fidelis.com",
     phone: "(431) 335-2321",
     location: "69 Leverton Cove Road Springfield",
     image: "/images/users/user4.jpg",
@@ -150,7 +150,7 @@ const agents: Agent[] = [
   {
     id: 5,
     name: "Mike Harris",
-    email: "harris@trezo.com",
+    email: "harris@fidelis.com",
     phone: "(605) 823-8868",
     location: "30 Hartway Street Mclaughlin",
     image: "/images/users/user5.jpg",
@@ -180,7 +180,7 @@ const agents: Agent[] = [
   {
     id: 6,
     name: "Emily Jones",
-    email: "emily@trezo.com",
+    email: "emily@fidelis.com",
     phone: "(617) 756-9911",
     location: "1654 Valley View Drive Brighton",
     image: "/images/users/user61.jpg",
@@ -210,7 +210,7 @@ const agents: Agent[] = [
   {
     id: 7,
     name: "Trent Heiser",
-    email: "heiser@trezo.com",
+    email: "heiser@fidelis.com",
     phone: "(507) 646-1869",
     location: "46 Trymore Road Northfield",
     image: "/images/users/user62.jpg",
@@ -240,7 +240,7 @@ const agents: Agent[] = [
   {
     id: 8,
     name: "Amiee Brown",
-    email: "brown@trezo.com",
+    email: "brown@fidelis.com",
     phone: "(602) 525-5444",
     location: "79 Hall Street Las Vegas",
     image: "/images/users/user63.jpg",
@@ -270,7 +270,7 @@ const agents: Agent[] = [
   {
     id: 9,
     name: "Edward Lebouef",
-    email: "lebouef@trezo.com",
+    email: "lebouef@fidelis.com",
     phone: "(337) 456-7858",
     location: "05 Sherwood Circle Lafayette",
     image: "/images/users/user64.jpg",
@@ -300,7 +300,7 @@ const agents: Agent[] = [
   {
     id: 10,
     name: "Marilyn Kelly",
-    email: "marilyn@trezo.com",
+    email: "marilyn@fidelis.com",
     phone: "(864) 933-2339",
     location: "46 Brown Avenue Anderson",
     image: "/images/users/user65.jpg",
@@ -330,7 +330,7 @@ const agents: Agent[] = [
   {
     id: 11,
     name: "Gary Manes",
-    email: "manes@trezo.com",
+    email: "manes@fidelis.com",
     phone: "(603) 258-7598",
     location: "75 Wildrose Lane Southfield",
     image: "/images/users/user66.jpg",
@@ -360,7 +360,7 @@ const agents: Agent[] = [
   {
     id: 12,
     name: "Francis Berg",
-    email: "francis@trezo.com",
+    email: "francis@fidelis.com",
     phone: "(651) 778-2290",
     location: "93 Park Boulevard Ottumwa",
     image: "/images/users/user67.jpg",

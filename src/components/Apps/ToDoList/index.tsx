@@ -297,7 +297,7 @@ const rows = [
   ),
   createData(
     "#873",
-    "Schedule meeting with Trezo",
+    "Schedule meeting with Fidelis",
     "Catalina Engles",
     "15 Apr 2024",
     "High",

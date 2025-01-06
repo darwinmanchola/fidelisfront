@@ -200,7 +200,7 @@ const rows = [
     "Big Data",
     55,
     "$6,855.00",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -227,7 +227,7 @@ const rows = [
     "UX/UI",
     120,
     "$258.00",
-    "ava@trezo.com",
+    "ava@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -254,7 +254,7 @@ const rows = [
     "Developer",
     86,
     "$3890.00",
-    "lucas@trezo.com",
+    "lucas@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -281,7 +281,7 @@ const rows = [
     "Designer",
     75,
     "$2500.00",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -308,7 +308,7 @@ const rows = [
     "Big Data",
     55,
     "$6,855.00",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -335,7 +335,7 @@ const rows = [
     "UX/UI",
     120,
     "$258.00",
-    "ava@trezo.com",
+    "ava@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -362,7 +362,7 @@ const rows = [
     "Developer",
     86,
     "$3890.00",
-    "lucas@trezo.com",
+    "lucas@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -389,7 +389,7 @@ const rows = [
     "Big Data",
     55,
     "$6,855.00",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -416,7 +416,7 @@ const rows = [
     "UX/UI",
     120,
     "$258.00",
-    "ava@trezo.com",
+    "ava@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -443,7 +443,7 @@ const rows = [
     "Developer",
     86,
     "$3890.00",
-    "lucas@trezo.com",
+    "lucas@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -470,7 +470,7 @@ const rows = [
     "Designer",
     75,
     "$2500.00",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -497,7 +497,7 @@ const rows = [
     "Big Data",
     55,
     "$6,855.00",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -524,7 +524,7 @@ const rows = [
     "UX/UI",
     120,
     "$258.00",
-    "ava@trezo.com",
+    "ava@fidelis.com",
     [
       {
         star: "ri-star-fill",
@@ -551,7 +551,7 @@ const rows = [
     "Developer",
     86,
     "$3890.00",
-    "lucas@trezo.com",
+    "lucas@fidelis.com",
     [
       {
         star: "ri-star-fill",

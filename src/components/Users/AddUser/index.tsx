@@ -147,7 +147,7 @@ const AddUser: React.FC = () => {
 
                       <TextField
                         label="Enter email address"
-                        placeholder="E.g. olivia@trezo.com"
+                        placeholder="E.g. olivia@fidelis.com"
                         variant="filled"
                         id="emailAddress"
                         name="emailAddress"

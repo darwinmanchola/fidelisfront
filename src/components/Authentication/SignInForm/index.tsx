@@ -2,17 +2,79 @@
 
 import * as React from "react";
 import {
-  Grid,
   Button,
   Box,
   Typography,
   FormControl,
   TextField,
+  FormHelperText,
 } from "@mui/material";
+import Grid from "@mui/material/Grid2"
 import Link from "next/link";
 import Image from "next/image";
+import { InferInput, object, pipe, string, minLength, email, nonEmpty } from "valibot";
+import { locale } from "dayjs";
+import { signIn } from "next-auth/react";
+import { Locale } from "next/dist/compiled/@vercel/og/satori";
+import { useForm, SubmitHandler, Controller } from "react-hook-form";
+import { valibotResolver } from '@hookform/resolvers/valibot'
+import { useSearchParams,useRouter } from "next/navigation";
+
+
+
+type ErrorType = {
+  message: string[]
+}
+
+type FormData = InferInput<typeof schema>
+
+const schema = object({
+  username: pipe(string(), minLength(1, 'El campo es obligatorio')),
+  password: pipe(
+    string(),
+    nonEmpty('El campo es obligatorio'),
+    minLength(4, 'la contraseña debe tener al menos 4 digitos')
+  )
+})
 
 const SignInForm: React.FC = () => {
+  const [errorState, setErrorState] = React.useState<ErrorType | null>(null)
+  const [errorMessage, setErrorMessage] = React.useState<string | null>(null);
+  const searchParams = useSearchParams()
+  const router = useRouter();
+
+  const {
+    control,
+    handleSubmit,
+    formState: { errors }
+  } = useForm<FormData>({
+    resolver: valibotResolver(schema),
+    defaultValues: {
+      username: '',
+      password: ''
+    }
+  })
+
+  const onSubmit: SubmitHandler<FormData> = async (data: FormData) => {
+    setErrorMessage(null)
+    const res = await signIn('credentials', {
+      username: data.username,
+      password: data.password,
+      redirect: false
+    })
+    
+    if (res && res.ok ) {
+      // Vars
+      const redirectURL = searchParams.get('redirectTo') ?? '/blank-page/'
+
+      router.push(redirectURL)
+    } else {
+      if (res?.error) {
+        const error = res.error        
+        setErrorMessage("Credenciales Invalidas");
+      }
+    }
+  }
   return (
     <>
       <Box
@@ -33,7 +95,7 @@ const SignInForm: React.FC = () => {
             alignItems="center"
             columnSpacing={{ xs: 1, sm: 2, md: 4, lg: 3 }}
           >
-            <Grid item xs={12} md={6} lg={6} xl={7}>
+            <Grid  size={{ xs:12, md:6, lg:6, xl:7}}>
               <Box
                 sx={{
                   display: { xs: "none", md: "block" },
@@ -51,7 +113,8 @@ const SignInForm: React.FC = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={6} lg={6} xl={5}>
+            <Grid  size={{ xs:12, md:6, lg:6, xl:5}}>
+
               <Box
                 className="form-content"
                 sx={{
@@ -94,196 +157,247 @@ const SignInForm: React.FC = () => {
                       fontWeight: "600",
                     }}
                   >
-                    Welcome back to Trezo!
+                    Bienvenido de nuevo a Fidelis!
                   </Typography>
 
-                  <Typography sx={{ fontWeight: "500", fontSize: "16px" }}>
+                 
+                </Box>
+                {/*
+                 <Typography sx={{ fontWeight: "500", fontSize: "16px" }}>
                     Sign In with social account or enter your details
                   </Typography>
-                </Box>
-
-                <Box
-                  className="with-socials"
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-around",
-                    gap: "5px",
-                    mb: "20px",
-                  }}
-                >
-                  <Button
-                    variant="outlined"
-                    className="border bg-white"
+                  <Box
+                    className="with-socials"
                     sx={{
-                      width: "100%",
-                      borderRadius: "8px",
-                      padding: "10.5px 20px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-around",
+                      gap: "5px",
+                      mb: "20px",
                     }}
                   >
-                    <Image
-                      src="/images/icons/google.svg"
-                      alt="google"
-                      width={25}
-                      height={25}
-                    />
-                  </Button>
-
-                  <Button
-                    variant="outlined"
-                    className="border bg-white"
-                    sx={{
-                      width: "100%",
-                      borderRadius: "8px",
-                      padding: "10.5px 20px",
-                    }}
-                  >
-                    <Image
-                      src="/images/icons/facebook2.svg"
-                      alt="facebook"
-                      width={25}
-                      height={25}
-                    />
-                  </Button>
-
-                  <Button
-                    variant="outlined"
-                    className="border bg-white"
-                    sx={{
-                      width: "100%",
-                      borderRadius: "8px",
-                      padding: "10.5px 20px",
-                    }}
-                  >
-                    <Image
-                      src="/images/icons/apple.svg"
-                      alt="apple"
-                      width={25}
-                      height={25}
-                    />
-                  </Button>
-                </Box>
-
-                <Box component="form">
-                  <Box mb="15px">
-                    <FormControl fullWidth>
-                      <Typography
-                        component="label"
-                        sx={{
-                          fontWeight: "500",
-                          fontSize: "14px",
-                          mb: "10px",
-                          display: "block",
-                        }}
-                        className="text-black"
-                      >
-                        Email Address
-                      </Typography>
-
-                      <TextField
-                        label="example&#64;trezo.com"
-                        variant="filled"
-                        id="email"
-                        name="email"
-                        sx={{
-                          "& .MuiInputBase-root": {
-                            border: "1px solid #D5D9E2",
-                            backgroundColor: "#fff",
-                            borderRadius: "7px",
-                          },
-                          "& .MuiInputBase-root::before": {
-                            border: "none",
-                          },
-                          "& .MuiInputBase-root:hover::before": {
-                            border: "none",
-                          },
-                        }}
-                      />
-                    </FormControl>
-                  </Box>
-
-                  <Box mb="15px">
-                    <FormControl fullWidth>
-                      <Typography
-                        component="label"
-                        sx={{
-                          fontWeight: "500",
-                          fontSize: "14px",
-                          mb: "10px",
-                          display: "block",
-                        }}
-                        className="text-black"
-                      >
-                        Password
-                      </Typography>
-
-                      <TextField
-                        label="Type Password"
-                        variant="filled"
-                        type="password"
-                        id="password"
-                        name="password"
-                        sx={{
-                          "& .MuiInputBase-root": {
-                            border: "1px solid #D5D9E2",
-                            backgroundColor: "#fff",
-                            borderRadius: "7px",
-                          },
-                          "& .MuiInputBase-root::before": {
-                            border: "none",
-                          },
-                          "& .MuiInputBase-root:hover::before": {
-                            border: "none",
-                          },
-                        }}
-                      />
-                    </FormControl>
-                  </Box>
-
-                  <Box mb="20px">
-                    <Link
-                      href="/authentication/forgot-password/"
-                      className="text-primary"
-                      style={{
-                        fontWeight: "500",
-                      }}
-                    >
-                      Forgot Password?
-                    </Link>
-                  </Box>
-
-                  <Box mb="20px">
                     <Button
-                      type="submit"
-                      variant="contained"
+                      variant="outlined"
+                      className="border bg-white"
                       sx={{
-                        textTransform: "capitalize",
-                        borderRadius: "6px",
-                        fontWeight: "500",
-                        fontSize: { xs: "13px", sm: "16px" },
-                        padding: { xs: "10px 20px", sm: "10px 24px" },
-                        color: "#fff !important",
-                        boxShadow: "none",
                         width: "100%",
+                        borderRadius: "8px",
+                        padding: "10.5px 20px",
                       }}
                     >
-                      <i className="material-symbols-outlined mr-5">login</i>
-                      Sign In
+                      <Image
+                        src="/images/icons/google.svg"
+                        alt="google"
+                        width={25}
+                        height={25}
+                      />
+                    </Button>
+
+                    <Button
+                      variant="outlined"
+                      className="border bg-white"
+                      sx={{
+                        width: "100%",
+                        borderRadius: "8px",
+                        padding: "10.5px 20px",
+                      }}
+                    >
+                      <Image
+                        src="/images/icons/facebook2.svg"
+                        alt="facebook"
+                        width={25}
+                        height={25}
+                      />
+                    </Button>
+
+                    <Button
+                      variant="outlined"
+                      className="border bg-white"
+                      sx={{
+                        width: "100%",
+                        borderRadius: "8px",
+                        padding: "10.5px 20px",
+                      }}
+                    >
+                      <Image
+                        src="/images/icons/apple.svg"
+                        alt="apple"
+                        width={25}
+                        height={25}
+                      />
                     </Button>
                   </Box>
+                */}
+                <Box >
+                <form 
+                    noValidate
+                    autoComplete='off'
+                    onSubmit={handleSubmit(onSubmit)}      
+                    className='flex flex-col gap-5'
+                  >
+                    <Box mb="15px">
+                    <FormControl fullWidth>
+                    <Controller
+                      name='username'
+                      control={control}
+                      rules={{ required: true }}
+                      render={({ field }) => (
+                        <>
+                          <Typography
+                            component="label"
+                            sx={{
+                              fontWeight: "500",
+                              fontSize: "14px",
+                              mb: "10px",
+                              display: "block",
+                            }}
+                            className="text-black"
+                          >
+                            Nombre de Usuario
+                          </Typography>
 
-                  <Typography>
-                    Don’t have an account.{" "}
-                    <Link
-                      href="/authentication/sign-up/"
-                      className="text-primary"
-                      style={{
-                        fontWeight: "500",
-                      }}
-                    >
-                      Sign Up
-                    </Link>
-                  </Typography>
+                          <TextField
+                            {...field}
+                            label="Nombre de Usuario"
+                            variant="filled"
+                            sx={{
+                              "& .MuiInputBase-root": {
+                                border: "1px solid #D5D9E2",
+                                backgroundColor: "#fff",
+                                borderRadius: "7px",
+                              },
+                              "& .MuiInputBase-root::before": {
+                                border: "none",
+                              },
+                              "& .MuiInputBase-root:hover::before": {
+                                border: "none",
+                              },
+                            }}
+                            onChange={e => {
+                              field.onChange(e.target.value)
+                              errorState !== null && setErrorState(null)
+                            }}
+                            {...((errors.username || errorState !== null) && {
+                              error: true,
+                              helperText: errors?.username?.message || errorState?.message[0]
+                            })}
+                          />
+                          </>                       
+                      
+                       )}
+                    />
+                    </FormControl>
+                  
+                    </Box>
+
+                    <Box mb="15px">
+                    <FormControl fullWidth>
+                    <Controller
+                      name='password'
+                      control={control}
+                      rules={{ required: true }}
+                      render={({ field }) => (
+                        
+                       <>
+                          <Typography
+                            component="label"
+                            sx={{
+                              fontWeight: "500",
+                              fontSize: "14px",
+                              mb: "10px",
+                              display: "block",
+                            }}
+                            className="text-black"
+                          >
+                            Contraseña
+                          </Typography>
+                          <TextField
+                          
+                            {...field}
+                            label="Digita la contraseña"
+                            variant="filled"
+                            type="password"
+                        
+                            sx={{
+                              "& .MuiInputBase-root": {
+                                border: "1px solid #D5D9E2",
+                                backgroundColor: "#fff",
+                                borderRadius: "7px",
+                              },
+                              "& .MuiInputBase-root::before": {
+                                border: "none",
+                              },
+                              "& .MuiInputBase-root:hover::before": {
+                                border: "none",
+                              },
+                            }}
+                            onChange={e => {
+                              field.onChange(e.target.value)
+                              errorState !== null && setErrorState(null)
+                            }}
+                            {...((errors.password || errorState !== null) && {
+                              error: true,
+                              helperText: errors?.password?.message || errorState?.message[0]
+                            })}
+                          />
+                       </>
+                      )}
+                      />
+                       </FormControl>
+                    </Box>
+
+                    <Box mb="20px">
+                      <Link
+                        href="/auth/forgot-password/"
+                        className="text-primary"
+                        style={{
+                          fontWeight: "500",
+                        }}
+                      >
+                        Forgot Password?
+                      </Link>
+                    </Box>
+
+                    <Box mb="20px">
+                      <Button
+                        type="submit"
+                        variant="contained"
+                        sx={{
+                          textTransform: "capitalize",
+                          borderRadius: "6px",
+                          fontWeight: "500",
+                          fontSize: { xs: "13px", sm: "16px" },
+                          padding: { xs: "10px 20px", sm: "10px 24px" },
+                          color: "#fff !important",
+                          boxShadow: "none",
+                          width: "100%",
+                        }}
+                      >
+                        <i className="material-symbols-outlined mr-5">login</i>
+                        Ingresar
+                      </Button>
+                    </Box>
+                    <Box mb="20px">
+                      {errorMessage && (
+                        <Typography color="error">
+                          {errorMessage}
+                        </Typography>
+                      )}
+                      </Box>
+
+                    <Typography>
+                      Don’t have an account.{" "}
+                      <Link
+                        href="/auth/sign-up/"
+                        className="text-primary"
+                        style={{
+                          fontWeight: "500",
+                        }}
+                      >
+                        Sign Up
+                      </Link>
+                    </Typography>
+                  </form>
                 </Box>
               </Box>
             </Grid>

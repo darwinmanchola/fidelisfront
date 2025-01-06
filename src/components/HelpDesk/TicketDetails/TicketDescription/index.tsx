@@ -31,7 +31,7 @@ const TicketDescription: React.FC = () => {
             PageMaker including versions of <a href="#">Lorem Ipsum</a>.
           </p>
 
-          <h6>Network Infrastructure for Trezo</h6>
+          <h6>Network Infrastructure for Fidelis</h6>
 
           <ul>
             <li>Login Issues</li>

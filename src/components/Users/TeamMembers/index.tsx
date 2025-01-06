@@ -185,7 +185,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">turner&#64;trezo.com</span>
+                <span className="text-body ml-5">turner&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -375,7 +375,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">parker&#64;trezo.com</span>
+                <span className="text-body ml-5">parker&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -565,7 +565,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">lee&#64;trezo.com</span>
+                <span className="text-body ml-5">lee&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -755,7 +755,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">torres&#64;trezo.com</span>
+                <span className="text-body ml-5">torres&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -945,7 +945,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">lucas&#64;trezo.com</span>
+                <span className="text-body ml-5">lucas&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -1135,7 +1135,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">morgan&#64;trezo.com</span>
+                <span className="text-body ml-5">morgan&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -1325,7 +1325,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">sophia&#64;trezo.com</span>
+                <span className="text-body ml-5">sophia&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -1515,7 +1515,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">meade&#64;trezo.com</span>
+                <span className="text-body ml-5">meade&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -1705,7 +1705,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">michael&#64;trezo.com</span>
+                <span className="text-body ml-5">michael&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -1895,7 +1895,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">charles&#64;trezo.com</span>
+                <span className="text-body ml-5">charles&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -2085,7 +2085,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">tina&#64;trezo.com</span>
+                <span className="text-body ml-5">tina&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">
@@ -2275,7 +2275,7 @@ const TeamMembers: React.FC = () => {
 
               <Box className="text-black" mt="10px">
                 Email Address:
-                <span className="text-body ml-5">turner&#64;trezo.com</span>
+                <span className="text-body ml-5">turner&#64;fidelis.com</span>
               </Box>
 
               <Box className="text-black" mt="10px">

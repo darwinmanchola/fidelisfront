@@ -1253,7 +1253,7 @@ const TeamsCard: React.FC = () => {
                   borderRadius: "30px",
                 }}
               >
-                Trezo - Angular
+                Fidelis - Angular
               </Typography>
             </Box>
 

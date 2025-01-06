@@ -23,16 +23,16 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import theme from "@/theme";
-import LayoutProvider from "@/providers/LayoutProvider";
+import themeConfig from "@/configs/themeConfig";
 
 export const metadata = {
-  title: "Trezo - React Nextjs 15+ Material Design Admin Dashboard Template",
-  description: "React Nextjs 15+ Material Design Admin Dashboard Template",
+  title: themeConfig.appName,
+  description: themeConfig.description,
 };
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link
           rel="stylesheet"
@@ -44,8 +44,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
           <ThemeProvider theme={theme}>
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
             <CssBaseline />
-
-            <LayoutProvider>{props.children}</LayoutProvider>
+           {props.children}
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

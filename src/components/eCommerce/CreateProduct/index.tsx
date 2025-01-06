@@ -245,7 +245,7 @@ const CreateProduct: React.FC = () => {
                         <MenuItem value={1}>Fediz</MenuItem>
                         <MenuItem value={2}>Debilop</MenuItem>
                         <MenuItem value={3}>Canin</MenuItem>
-                        <MenuItem value={4}>Trezo</MenuItem>
+                        <MenuItem value={4}>Fidelis</MenuItem>
                       </Select>
                     </FormControl>
                   </Box>

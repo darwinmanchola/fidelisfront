@@ -61,7 +61,7 @@ const Profile: React.FC = () => {
             Harold Cook
           </Typography>
 
-          <Typography>harold@trezo.com</Typography>
+          <Typography>harold@fidelis.com</Typography>
 
           <Box
             sx={{

@@ -120,7 +120,7 @@ const ForgotPasswordForm: React.FC = () => {
                       </Typography>
 
                       <TextField
-                        label="example&#64;trezo.com"
+                        label="example&#64;fidelis.com"
                         variant="filled"
                         id="email"
                         name="email"
@@ -166,7 +166,7 @@ const ForgotPasswordForm: React.FC = () => {
                   <Typography>
                     Back to{" "}
                     <Link
-                      href="/authentication/sign-in/"
+                      href="/auth/sign-in/"
                       className="text-primary"
                       style={{
                         fontWeight: "500",

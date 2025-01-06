@@ -87,7 +87,7 @@ const LogoutContent: React.FC = () => {
                       fontWeight: "600",
                     }}
                   >
-                    Welcome back to Trezo!
+                    Welcome back to Fidelis!
                   </Typography>
 
                   <Typography sx={{ fontWeight: "500", fontSize: "16px" }}>
@@ -122,7 +122,7 @@ const LogoutContent: React.FC = () => {
                   </Typography>
                 </Box>
 
-                <Link href="/authentication/sign-in">
+                <Link href="/auth/sign-in">
                   <Button
                     type="submit"
                     variant="contained"

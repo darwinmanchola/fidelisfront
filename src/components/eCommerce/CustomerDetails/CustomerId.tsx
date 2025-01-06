@@ -128,7 +128,7 @@ const CustomerId: React.FC = () => {
               Billing Email:
             </Typography>
             <Typography fontSize="14px" fontWeight={500} className="text-black">
-              ava&#64;trezo.com
+              ava&#64;fidelis.com
             </Typography>
           </Box>
 

@@ -41,12 +41,12 @@ const MenuProps = {
 };
 
 const names = [
-  "james@trezo.com",
-  "andy@trezo.com",
-  "mateo@trezo.com",
-  "luca@trezo.com",
-  "smith@trezo.com",
-  "tomato@trezo.com",
+  "james@fidelis.com",
+  "andy@fidelis.com",
+  "mateo@fidelis.com",
+  "luca@fidelis.com",
+  "smith@fidelis.com",
+  "tomato@fidelis.com",
 ];
 
 const Compose: React.FC = () => {

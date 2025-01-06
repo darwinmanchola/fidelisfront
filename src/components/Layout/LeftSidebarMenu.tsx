@@ -74,7 +74,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
                 width={26}
                 height={26}
               />
-              <Typography component={"span"}>Trezo</Typography>
+              <Typography component={"span"}>Fidelis</Typography>
             </Link>
           </Box>
 
@@ -2534,7 +2534,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
                   <ul className="sidebar-sub-menu">
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/sign-in/"
+                        href="/auth/sign-in/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/sign-in/"
                             ? "active"
@@ -2547,7 +2547,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/sign-up/"
+                        href="/auth/sign-up/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/sign-up/"
                             ? "active"
@@ -2560,7 +2560,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/forgot-password/"
+                        href="/auth/forgot-password/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/forgot-password/"
                             ? "active"
@@ -2573,7 +2573,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/reset-password/"
+                        href="/auth/reset-password/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/reset-password/"
                             ? "active"
@@ -2586,7 +2586,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/confirm-email/"
+                        href="/auth/confirm-email/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/confirm-email/"
                             ? "active"
@@ -2599,7 +2599,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/lock-screen/"
+                        href="/auth/lock-screen/"
                         className={`sidemenu-link ${
                           pathname === "/authentication/lock-screen/"
                             ? "active"
@@ -2612,7 +2612,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
                     <li className="sidemenu-item">
                       <Link
-                        href="/authentication/logout/"
+                        href="/auth/logout/"
                         className="sidemenu-link"
                       >
                         Logout
@@ -2928,7 +2928,7 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
               </Accordion>
 
               <Link
-                href="/authentication/logout/"
+                href="/auth/logout/"
                 className="sidebar-menu-link"
               >
                 <i className="material-symbols-outlined">logout</i>

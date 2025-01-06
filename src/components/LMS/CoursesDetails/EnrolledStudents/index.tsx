@@ -112,49 +112,49 @@ const rows = [
     "#A-1217",
     "/images/users/user13.jpg",
     "Olivia Clark",
-    "olivia@trezo.com"
+    "olivia@fidelis.com"
   ),
   createData(
     "#A-1218",
     "/images/users/user16.jpg",
     "Ava Turner",
-    "ava@trezo.com"
+    "ava@fidelis.com"
   ),
   createData(
     "#A-1219",
     "/images/users/user17.jpg",
     "Lucas Morgan",
-    "lucas@trezo.com"
+    "lucas@fidelis.com"
   ),
   createData(
     "#A-1220",
     "/images/users/user18.jpg",
     "Isabella Cooper",
-    "isabella@trezo.com"
+    "isabella@fidelis.com"
   ),
   createData(
     "#A-1221",
     "/images/users/user31.jpg",
     "Jhon Smith",
-    "olivia@trezo.com"
+    "olivia@fidelis.com"
   ),
   createData(
     "#A-1222",
     "/images/users/user30.jpg",
     "Lucas Morgan",
-    "lucas@trezo.com"
+    "lucas@fidelis.com"
   ),
   createData(
     "#A-1223",
     "/images/users/user29.jpg",
     "Isabella Cooper",
-    "isabella@trezo.com"
+    "isabella@fidelis.com"
   ),
   createData(
     "#A-1224",
     "/images/users/user28.jpg",
     "Mason Cooper",
-    "mason@trezo.com"
+    "mason@fidelis.com"
   ),
 ].sort((b, a) => (a.id < b.id ? -1 : 1));
 

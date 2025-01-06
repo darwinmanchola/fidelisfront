@@ -19,37 +19,18 @@ const LayoutProvider: React.FC<LayoutProviderProps> = ({ children }) => {
     setActive(!active);
   };
 
-  const isAuthPage = [
-    "/authentication/sign-in/",
-    "/authentication/sign-up/",
-    "/authentication/forgot-password/",
-    "/authentication/reset-password/",
-    "/authentication/confirm-email/",
-    "/authentication/lock-screen/",
-    "/authentication/logout/",
-    "/coming-soon/",
-    "/",
-    "/front-pages/features/",
-    "/front-pages/team/",
-    "/front-pages/faq/",
-    "/front-pages/contact/",
-  ].includes(pathname);
-
   return (
     <>
       <div className={`main-wrapper-content ${active ? "active" : ""}`}>
-        {!isAuthPage && (
+       
           <>
             <TopNavbar toggleActive={toggleActive} />
 
             <LeftSidebarMenu toggleActive={toggleActive} />
           </>
-        )}
-
         <div className="main-content">
           {children}
-
-          {!isAuthPage && <Footer />}
+         <Footer />
         </div>
       </div>
 

@@ -185,7 +185,7 @@ const ChangePassword: React.FC = () => {
                 </Button>
 
                 <Link
-                  href="/authentication/forgot-password/"
+                  href="/auth/forgot-password/"
                   sx={{
                     color: "error.main",
                   }}

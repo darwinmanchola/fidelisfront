@@ -94,7 +94,7 @@ const SignUpForm: React.FC = () => {
                       fontWeight: "600",
                     }}
                   >
-                    Sign up to Trezo Dashboard
+                    Sign up to Fidelis Dashboard
                   </Typography>
 
                   <Typography sx={{ fontWeight: "500", fontSize: "16px" }}>
@@ -218,7 +218,7 @@ const SignUpForm: React.FC = () => {
                       </Typography>
 
                       <TextField
-                        label="example&#64;trezo.com"
+                        label="example&#64;fidelis.com"
                         variant="filled"
                         id="email"
                         name="email"
@@ -330,7 +330,7 @@ const SignUpForm: React.FC = () => {
                   >
                     Already have an account.{" "}
                     <Link
-                      href="/authentication/sign-in/"
+                      href="/auth/sign-in/"
                       className="text-primary"
                       style={{
                         fontWeight: "500",

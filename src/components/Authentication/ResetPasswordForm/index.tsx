@@ -243,7 +243,7 @@ const ResetPasswordForm: React.FC = () => {
                   <Typography>
                     Back to{" "}
                     <Link
-                      href="/authentication/sign-in/"
+                      href="/auth/sign-in/"
                       className="text-primary"
                       style={{
                         fontWeight: "500",

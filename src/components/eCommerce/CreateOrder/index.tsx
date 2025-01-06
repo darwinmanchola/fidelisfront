@@ -170,7 +170,7 @@ const CreateOrder: React.FC = () => {
 
                       <TextField
                         label="Enter email address"
-                        placeholder="E.g. ava@trezo.com"
+                        placeholder="E.g. ava@fidelis.com"
                         variant="filled"
                         id="emailAddress"
                         name="emailAddress"

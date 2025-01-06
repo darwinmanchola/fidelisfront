@@ -69,7 +69,7 @@ const Seller: React.FC = () => {
                 </Typography>
               </Link>
 
-              <Typography fontSize="13px">turner&#64;trezo.com</Typography>
+              <Typography fontSize="13px">turner&#64;fidelis.com</Typography>
             </Box>
           </Box>
 

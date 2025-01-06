@@ -48,7 +48,7 @@ const CourseInstructor: React.FC = () => {
             <Typography fontWeight={500} fontSize="17px" className="text-black">
               Aliva Cohen
             </Typography>
-            <Typography fontSize="13px">aliva@trezo.com</Typography>
+            <Typography fontSize="13px">aliva@fidelis.com</Typography>
           </Box>
         </Box>
 

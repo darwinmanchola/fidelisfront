@@ -34,7 +34,7 @@ const ShippingDetails: React.FC = () => {
           </Box>
 
           <Box mt="8px">
-            <span className="text-black">Email:</span> example@trezo.com
+            <span className="text-black">Email:</span> example@fidelis.com
           </Box>
 
           <Box mt="8px">

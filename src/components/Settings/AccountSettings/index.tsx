@@ -185,7 +185,7 @@ const AccountSettings: React.FC = () => {
 
                   <TextField
                     label="Enter amail address"
-                    defaultValue="olivia@trezo.com"
+                    defaultValue="olivia@fidelis.com"
                     variant="filled"
                     id="emailAddress"
                     name="emailAddress"
@@ -501,7 +501,7 @@ const AccountSettings: React.FC = () => {
 
                   <TextField
                     label="Enter company name"
-                    defaultValue="Trezo Admin"
+                    defaultValue="Fidelis Admin"
                     variant="filled"
                     id="companyName"
                     name="companyName"

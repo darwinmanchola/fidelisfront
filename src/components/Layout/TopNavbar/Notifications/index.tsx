@@ -140,7 +140,7 @@ const Notifications: React.FC = () => {
               className="text-black"
             >
               <strong style={{ fontWeight: "600" }}>A new user</strong> added in
-              Trezo
+              Fidelis
             </Box>
 
             <Box component="span" sx={{ display: "block" }}>

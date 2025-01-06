@@ -176,7 +176,7 @@ const SettingsForm: React.FC = () => {
 
                       <TextField
                         label="Enter email address"
-                        defaultValue="johnson@trezo.com"
+                        defaultValue="johnson@fidelis.com"
                         variant="filled"
                         id="email"
                         name="email"
@@ -568,7 +568,7 @@ const SettingsForm: React.FC = () => {
 
                       <TextField
                         label="Enter company name"
-                        defaultValue="Trezo Admin"
+                        defaultValue="Fidelis Admin"
                         variant="filled"
                         id="companyName"
                         name="companyName"

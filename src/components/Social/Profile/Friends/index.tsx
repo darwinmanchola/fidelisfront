@@ -122,7 +122,7 @@ const rows = [
     "/images/users/user6.jpg",
     "Alex Davis",
     "success",
-    "alex@trezo.com",
+    "alex@fidelis.com",
     "#"
   ),
   createData(
@@ -130,7 +130,7 @@ const rows = [
     "/images/users/user7.jpg",
     "Laura Martinez",
     "success",
-    "laura@trezo.com",
+    "laura@fidelis.com",
     "#"
   ),
   createData(
@@ -138,7 +138,7 @@ const rows = [
     "/images/users/user8.jpg",
     "Mark Thompson",
     "error",
-    "mark@trezo.com",
+    "mark@fidelis.com",
     "#"
   ),
   createData(
@@ -146,7 +146,7 @@ const rows = [
     "/images/users/user9.jpg",
     "Rachel White",
     "success",
-    "rachel@trezo.com",
+    "rachel@fidelis.com",
     "#"
   ),
   createData(
@@ -154,7 +154,7 @@ const rows = [
     "/images/users/user10.jpg",
     "Kevin Lee",
     "error",
-    "kevin@trezo.com",
+    "kevin@fidelis.com",
     "#"
   ),
   createData(
@@ -162,7 +162,7 @@ const rows = [
     "/images/users/user11.jpg",
     "Oliver Johnson",
     "success",
-    "oliver@trezo.com",
+    "oliver@fidelis.com",
     "#"
   ),
   createData(
@@ -170,7 +170,7 @@ const rows = [
     "/images/users/user12.jpg",
     "Jake Noah",
     "success",
-    "jake@trezo.com",
+    "jake@fidelis.com",
     "#"
   ),
   createData(
@@ -178,7 +178,7 @@ const rows = [
     "/images/users/user13.jpg",
     "Callum Mason",
     "error",
-    "callum@trezo.com",
+    "callum@fidelis.com",
     "#"
   ),
   createData(
@@ -186,7 +186,7 @@ const rows = [
     "/images/users/user14.jpg",
     "Robert Kyle",
     "success",
-    "robert@trezo.com",
+    "robert@fidelis.com",
     "#"
   ),
   createData(
@@ -194,7 +194,7 @@ const rows = [
     "/images/users/user15.jpg",
     "Thomas Joe",
     "error",
-    "thomas@trezo.com",
+    "thomas@fidelis.com",
     "#"
   ),
 ].sort((b, a) => (a.id < b.id ? -1 : 1));

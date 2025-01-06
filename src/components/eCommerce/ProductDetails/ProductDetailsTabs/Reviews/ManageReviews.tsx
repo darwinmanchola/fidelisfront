@@ -139,7 +139,7 @@ const rows = [
     1,
     "/images/users/user6.jpg",
     "Olivia Clark",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -166,7 +166,7 @@ const rows = [
     2,
     "/images/users/user7.jpg",
     "Zephyr Zing",
-    "zephyr@trezo.com",
+    "zephyr@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -193,7 +193,7 @@ const rows = [
     3,
     "/images/users/user8.jpg",
     "Nova Nectar",
-    "nova@trezo.com",
+    "nova@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -220,7 +220,7 @@ const rows = [
     4,
     "/images/users/user9.jpg",
     "Isabella Chang",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -247,7 +247,7 @@ const rows = [
     5,
     "/images/users/user9.jpg",
     "Isabella Chang",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -274,7 +274,7 @@ const rows = [
     6,
     "/images/users/user6.jpg",
     "Olivia Clark",
-    "olivia@trezo.com",
+    "olivia@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -301,7 +301,7 @@ const rows = [
     7,
     "/images/users/user7.jpg",
     "Zephyr Zing",
-    "zephyr@trezo.com",
+    "zephyr@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -328,7 +328,7 @@ const rows = [
     8,
     "/images/users/user8.jpg",
     "Nova Nectar",
-    "nova@trezo.com",
+    "nova@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -355,7 +355,7 @@ const rows = [
     9,
     "/images/users/user9.jpg",
     "Isabella Chang",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         stars: "ri-star-fill",
@@ -382,7 +382,7 @@ const rows = [
     10,
     "/images/users/user9.jpg",
     "Isabella Chang",
-    "isabella@trezo.com",
+    "isabella@fidelis.com",
     [
       {
         stars: "ri-star-fill",

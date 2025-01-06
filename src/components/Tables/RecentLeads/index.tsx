@@ -122,7 +122,7 @@ const rows = [
     1,
     "/images/users/user11.jpg",
     "David Brown",
-    "david@trezo.com",
+    "david@fidelis.com",
     "Organic",
     "Confirmed"
   ),
@@ -130,7 +130,7 @@ const rows = [
     2,
     "/images/users/user12.jpg",
     "Sarah Miller",
-    "sara@trezo.com",
+    "sara@fidelis.com",
     "Social",
     "Pending"
   ),
@@ -138,7 +138,7 @@ const rows = [
     3,
     "/images/users/user13.jpg",
     "Michael Wilson",
-    "micheal@trezo.com",
+    "micheal@fidelis.com",
     "Website",
     "in Progress"
   ),
@@ -146,7 +146,7 @@ const rows = [
     4,
     "/images/users/user8.jpg",
     "Amanda Clark",
-    "amanda@trezo.com",
+    "amanda@fidelis.com",
     "Paid",
     "Confirmed"
   ),
@@ -154,7 +154,7 @@ const rows = [
     5,
     "/images/users/user14.jpg",
     "Jennifer Taylor",
-    "taylor@trezo.com",
+    "taylor@fidelis.com",
     "Others",
     "rejected"
   ),
@@ -162,7 +162,7 @@ const rows = [
     6,
     "/images/users/user15.jpg",
     "Jhon Me",
-    "joon@trezo.com",
+    "joon@fidelis.com",
     "Organic",
     "Confirmed"
   ),
@@ -170,7 +170,7 @@ const rows = [
     7,
     "/images/users/user16.jpg",
     "Miller Kay",
-    "miller@trezo.com",
+    "miller@fidelis.com",
     "Social",
     "Pending"
   ),
@@ -178,7 +178,7 @@ const rows = [
     8,
     "/images/users/user17.jpg",
     "Clark Wilson",
-    "clark@trezo.com",
+    "clark@fidelis.com",
     "Paid",
     "Confirmed"
   ),
@@ -186,7 +186,7 @@ const rows = [
     9,
     "/images/users/user18.jpg",
     "Wilson Clark",
-    "wilson@trezo.com",
+    "wilson@fidelis.com",
     "Website",
     "in Progress"
   ),
@@ -194,7 +194,7 @@ const rows = [
     10,
     "/images/users/user19.jpg",
     "David Le",
-    "davidle@trezo.com",
+    "davidle@fidelis.com",
     "Organic",
     "Confirmed"
   ),

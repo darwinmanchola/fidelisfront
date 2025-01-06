@@ -115,7 +115,7 @@ const TextualInputs: React.FC = () => {
               <FormControl fullWidth>
                 <TextField
                   label="Email address"
-                  placeholder="E.g. hello@trezo.com"
+                  placeholder="E.g. hello@fidelis.com"
                   variant="filled"
                   id="email"
                   name="email"

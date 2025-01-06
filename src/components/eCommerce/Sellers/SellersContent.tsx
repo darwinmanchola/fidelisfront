@@ -124,7 +124,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">turner&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">turner&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -243,7 +243,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">ethan&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">ethan&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -363,7 +363,7 @@ const SellersContent: React.FC = () => {
                   </Link>
 
                   <Typography fontSize="13px">
-                    isabella&#64;trezo.com
+                    isabella&#64;fidelis.com
                   </Typography>
                 </Box>
               </Box>
@@ -484,7 +484,7 @@ const SellersContent: React.FC = () => {
                   </Link>
 
                   <Typography fontSize="13px">
-                    thompson&#64;trezo.com
+                    thompson&#64;fidelis.com
                   </Typography>
                 </Box>
               </Box>
@@ -604,7 +604,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">lucas&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">lucas&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -723,7 +723,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">morgan&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">morgan&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -842,7 +842,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">sophia&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">sophia&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -962,7 +962,7 @@ const SellersContent: React.FC = () => {
                   </Link>
 
                   <Typography fontSize="13px">
-                    rodriguez&#64;trezo.com
+                    rodriguez&#64;fidelis.com
                   </Typography>
                 </Box>
               </Box>
@@ -1082,7 +1082,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">olivia&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">olivia&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -1201,7 +1201,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">david&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">david&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -1320,7 +1320,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">alice&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">alice&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 
@@ -1439,7 +1439,7 @@ const SellersContent: React.FC = () => {
                     </Typography>
                   </Link>
 
-                  <Typography fontSize="13px">emily&#64;trezo.com</Typography>
+                  <Typography fontSize="13px">emily&#64;fidelis.com</Typography>
                 </Box>
               </Box>
 

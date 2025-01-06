@@ -126,14 +126,14 @@ const Navbar: React.FC = () => {
 
               <div className="other-options">
                 <Link
-                  href="/authentication/sign-in/"
+                  href="/auth/sign-in/"
                   className="fp-outlined-btn"
                 >
                   <i className="material-symbols-outlined">login</i>
                   Login
                 </Link>
 
-                <Link href="/authentication/sign-up/" className="fp-btn">
+                <Link href="/auth/sign-up/" className="fp-btn">
                   <i className="material-symbols-outlined">person</i>
                   Register
                 </Link>
