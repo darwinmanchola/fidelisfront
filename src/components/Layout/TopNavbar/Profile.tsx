@@ -22,6 +22,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SettingsIcon from "@mui/icons-material/Settings";
 import SupportIcon from "@mui/icons-material/Support";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
+import { signOut } from "next-auth/react";
 
 interface ProfileProps {}
 
@@ -36,6 +37,18 @@ const Profile: React.FC<ProfileProps> = () => {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const handleUserLogout = async () => {
+    try {
+      // Sign out from the app
+      await signOut({ callbackUrl: process.env.NEXT_PUBLIC_APP_URL })
+    } catch (error) {
+      console.error(error)
+
+      // Show above error in a toast like following
+      // toastService.error((err as Error).message)
+    }
+  }
 
   return (
     <>
@@ -274,6 +287,8 @@ const Profile: React.FC<ProfileProps> = () => {
               display: "flex",
               alignItems: "center",
             }}
+            onClick={handleUserLogout}
+
           >
             <ListItemIcon sx={{ mr: "-10px", mt: "-3px" }}>
               <Logout sx={{ fontSize: "20px" }} className="text-black" />
